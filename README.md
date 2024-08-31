@@ -2,6 +2,7 @@
 Overview
 
 Welcome to my portfolio website! This project showcases my skills, projects, and experience in web development. It is designed to be a professional online presence where I can share my work, connect with potential employers or clients, and provide insight into my expertise in various web technologies.
+**This is a reference portfolio and not an actual portfolio. This is used to show mt skills in Web development.**
 
 Features
 
