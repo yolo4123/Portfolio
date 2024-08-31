@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:beige ;
+    color:rgb(91, 33, 33);
+}
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding:10px 5%;
+    background-color:rgb(91, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+header h1{
+    font-size: 25px;
+    color:rgb(226, 218, 218);
+    text-decoration: none;
+    font-weight: 800;
+}
+.navbar a{
+    font-size: 20px;
+    color: rgb(91, 33, 33);
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 35px;
+    font-style: oblique;
+    padding: 20px;
+    color: rgb(230, 220, 245);
+}
+.navbar a:hover{
+    color:rgba(119, 116, 152, 0.956);
+}
+.Home{
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    padding:0 10%;
+}
+.Home-content{
+    
+    max-width: 650px;
+}
+.Home-content h1{
+    font-size: 56px;
+    font-weight: 600;
+    text-align: justify;
+}
+.Home-content h3{
+    font-size: 32px;
+    font-weight: 550;
+    color:rgb(132, 15, 15);
+    text-align: justify;
+}
+
+.Home-content p{
+    font-size: 20px;
+}
+
+.Home-content .btn-box {
+    width: 350px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.btn-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height: 100%;
+    background: rgb(91, 33, 33);
+    border: 2px solid rgb(91, 33, 33);
+    border-radius: 5px;
+    font-size: 20px;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 600px;
+    letter-spacing: 1px;
+
+}
+.btn-box a:hover{
+    color:rgba(144, 96, 97, 0.917);
+}
+
+
+/*-------- About ---------*/
+#About{
+    padding: 100px;
+    color:rgb(91, 33, 33);
+
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.about-img{
+    flex-basis: 35%;
+}
+.about-img img{
+    width:100%;
+    border-radius: 15px;
+
+}
+.about-text{
+    flex-basis:60%;
+    text-align: center;
+    font-size: 25px;
+
+}
+.exp{
+    font-size: 15px;
+    text-decoration: none;
+}
+/*-----------servives---------*/
+#Services{
+    padding: 50px;
+    color:rgb(91, 33, 33);
+
+}
+
+.center-text h1{
+    font-size:40px;
+    align-content: center;
+}
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    align-items:center;
+    gap: 2.3rem;
+    margin-top:4.2rem;
+}
+.box{
+    padding: 80px 40px 66px;
+    background: #a36e6e;
+    border-radius:28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px rgb(91, 33, 33);
+    transition: all .50s ease;
+    cursor: pointer;
+}
+.box h3{
+    font-size:30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.box p{
+    font-weight:400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.box a{
+    display:inline-block;
+    font-size: 22px;
+    line-height: 1.273em;
+    color: rgb(91, 33, 33);
+    margin-left : 5px;
+    padding:7px 0;
+    border-bottom: 1px solid #5d6c83;
+    transition:all .50s ease;
+}
+.box a:hover{
+    border-bottom:2px solid rgb(58, 42, 42) ;
+    
+}
+.box:hover{
+    border:1px solid rgb(23, 5, 5);
+    transform: translateY(-5px)scale(1.03);
+}
+/*------Skills-------*/
+#Skills{
+    padding: 100px;
+    color:rgb(91, 33, 33);
+
+}
+.f1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: rgb(47, 12, 12)
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+.skill {
+    font-weight: bold;
+    color: rgb(91, 33, 33);
+}
+
+
+/*------Contact Me-------*/
+
+#Contact{
+    padding: 40px;
+    color:rgb(91, 33, 33);
+
+}
+  .container-1 {
+    width: 600px;
+    margin: 40px auto;
+  }
+  .contact-form {
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+  .form-group {
+    margin-bottom: 12px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
